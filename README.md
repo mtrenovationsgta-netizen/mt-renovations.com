@@ -1,21 +1,22 @@
-# MT Renovations Premium Website
+# MT Renovations automatic gallery website
 
 Upload photos to the `images` folder.
 
-Required optional names:
-- logo.png = website logo
-- hero.jpg = large hero image at the top
+Logo:
+- logo.png or logo.jpg
+
+Hero image:
+- hero.jpg or hero.png
+
+Before / After:
+- before-bathroom.jpg
+- after-bathroom.jpg
+- before-flooring.jpg
+- after-flooring.jpg
 
 Gallery:
-Every other image in the `images` folder appears automatically in the gallery.
-
-Examples:
+Any other image file will appear in the gallery:
 - bathroom1.jpg
-- bathroom2.jpg
-- kitchen1.jpg
 - flooring1.jpg
 - painting1.jpg
-- condo1.jpg
-
-Important:
-The repository must stay public because the site reads image files from GitHub.
+- kitchen1.jpg
