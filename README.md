@@ -1,21 +1,14 @@
-# MT Renovations Premium Website
+# MT Renovations V2 Premium Website
 
-Upload photos to the `images` folder.
+Upload to GitHub Pages.
 
-Required optional names:
-- logo.png = website logo
-- hero.jpg = large hero image at the top
+Image rules:
+- images/logo.png = company logo
+- images/hero.jpg = large homepage image
+- every other image in images/ appears automatically in the gallery
 
-Gallery:
-Every other image in the `images` folder appears automatically in the gallery.
-
-Examples:
-- bathroom1.jpg
-- bathroom2.jpg
-- kitchen1.jpg
-- flooring1.jpg
-- painting1.jpg
-- condo1.jpg
-
-Important:
-The repository must stay public because the site reads image files from GitHub.
+Recommended filenames:
+- kitchen.jpg
+- floor.jpg
+- paint.jpg
+- closet-doors.jpg
