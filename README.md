@@ -1,30 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>MT Renovations</title>
-  <meta name="description" content="Professional renovation services in Toronto and GTA">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-  <h1>MT Renovations</h1>
-  <h2>Professional Renovation Services in Toronto & GTA</h2>
+# MT Renovations Premium Website
 
-  <p>We specialize in condo renovations, bathroom renovations, kitchen renovations, flooring, painting, drywall, and repairs.</p>
+Upload photos to the `images` folder.
 
-  <h2>Our Services</h2>
-  <ul>
-    <li>Condo Renovations</li>
-    <li>Bathroom Renovations</li>
-    <li>Kitchen Renovations</li>
-    <li>Flooring Installation</li>
-    <li>Painting & Drywall</li>
-  </ul>
+Required optional names:
+- logo.png = website logo
+- hero.jpg = large hero image at the top
 
-  <h2>Service Area</h2>
-  <p>Toronto, Etobicoke, Mississauga, Oakville, Scarborough, North York, Vaughan, GTA.</p>
+Gallery:
+Every other image in the `images` folder appears automatically in the gallery.
 
-  <h2>Contact</h2>
-  <p>Email: info@mt-renovations.com</p>
-  <p>Phone: your phone number</p>
-</body>
-</html>
+Examples:
+- bathroom1.jpg
+- bathroom2.jpg
+- kitchen1.jpg
+- flooring1.jpg
+- painting1.jpg
+- condo1.jpg
+
+Important:
+The repository must stay public because the site reads image files from GitHub.
