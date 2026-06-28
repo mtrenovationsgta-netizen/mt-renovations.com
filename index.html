@@ -3,28 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>MT Renovations | Condo & Home Renovations in Toronto & GTA</title>
+  <title>MT Renovations | Renovation Services in Toronto & GTA</title>
   <meta name="description" content="MT Renovations provides professional condo, bathroom, kitchen, flooring, painting and drywall renovation services in Toronto and the GTA." />
-
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a href="#home" class="logo-link" aria-label="MT Renovations home">
-        <img id="siteLogo" class="site-logo" src="" alt="MT Renovations Logo" />
-        <span id="textLogo" class="text-logo">MT <strong>Renovations</strong></span>
-      </a>
-
-      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
-
+      <a href="#home" class="logo">MT <span>Renovations</span></a>
+      <button class="menu-btn" id="menuBtn">☰</button>
       <nav id="mainNav">
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#before-after">Before / After</a>
         <a href="#gallery">Gallery</a>
+        <a href="#insurance">WSIB & Insurance</a>
         <a href="#contact" class="nav-cta">Free Estimate</a>
       </nav>
     </div>
@@ -33,31 +25,34 @@
   <main id="home">
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Toronto & GTA renovation contractor</p>
-          <h1>Professional Condo & Home Renovations in Toronto and GTA</h1>
+        <div>
+          <p class="eyebrow">Toronto & GTA Renovation Contractor</p>
+          <h1>Professional Renovation Services for Condos, Homes & Rentals</h1>
           <p class="hero-text">
-            MT Renovations helps homeowners, landlords, condo owners and property managers with clean, reliable renovation work.
+            MT Renovations helps homeowners, landlords, condo owners and property managers with reliable renovation work, clean finishes and clear communication.
           </p>
-
           <div class="hero-actions">
             <a href="#contact" class="btn primary">Get Free Estimate</a>
-            <a href="mailto:info@mt-renovations.com" class="btn secondary">info@mt-renovations.com</a>
+            <a href="mailto:info@mt-renovations.com" class="btn secondary">Email Us</a>
           </div>
         </div>
 
-        <div class="hero-image-wrap">
-          <img id="heroImage" class="hero-image" src="" alt="MT Renovations project photo" />
-          <div id="heroPlaceholder" class="photo-placeholder">
-            Add a photo named <strong>hero.jpg</strong> to the images folder
-          </div>
+        <div class="hero-card">
+          <h3>Renovation Services</h3>
+          <ul>
+            <li>Condo Renovations</li>
+            <li>Bathroom & Kitchen Renovations</li>
+            <li>Flooring Installation</li>
+            <li>Painting & Drywall Repairs</li>
+            <li>Rental Unit Turnovers</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="trust">
       <div class="container trust-grid">
-        <div><strong>Since 2023</strong><span>Serving homeowners and condo owners</span></div>
+        <div><strong>Since 2023</strong><span>Serving condo owners and homeowners</span></div>
         <div><strong>GTA Area</strong><span>Toronto, Etobicoke, Mississauga and more</span></div>
         <div><strong>Clean Work</strong><span>Respectful service for occupied units</span></div>
         <div><strong>Free Quote</strong><span>Send photos and project details</span></div>
@@ -66,16 +61,33 @@
 
     <section id="services" class="section">
       <div class="container">
-        <p class="eyebrow">What we do</p>
-        <h2>Renovation Services</h2>
-
+        <p class="eyebrow">What We Do</p>
+        <h2>Our Renovation Services</h2>
         <div class="cards">
-          <article class="card"><h3>Condo Renovations</h3><p>Renovation work for condo owners, landlords and property managers with attention to building rules and clean work areas.</p></article>
-          <article class="card"><h3>Bathroom Renovations</h3><p>Bathroom upgrades, vanities, tile, drywall, painting, fixtures and finishing work.</p></article>
-          <article class="card"><h3>Kitchen Renovations</h3><p>Cabinet updates, backsplash, flooring, repairs, painting and installation support.</p></article>
-          <article class="card"><h3>Flooring Installation</h3><p>Laminate, vinyl plank, baseboards, transitions and floor preparation.</p></article>
-          <article class="card"><h3>Painting & Drywall</h3><p>Wall repairs, patching, sanding, priming, painting and full unit refresh work.</p></article>
-          <article class="card"><h3>Rental Turnovers</h3><p>Fast refresh services for rental apartments before new tenants move in.</p></article>
+          <article class="card">
+            <h3>Condo Renovations</h3>
+            <p>Renovation work for condo owners, tenants, landlords and property managers, with attention to building rules and clean work areas.</p>
+          </article>
+          <article class="card">
+            <h3>Bathroom Renovations</h3>
+            <p>Bathroom upgrades, vanities, tile, drywall, painting, fixtures and finishing work.</p>
+          </article>
+          <article class="card">
+            <h3>Kitchen Renovations</h3>
+            <p>Cabinet updates, backsplash, flooring, repairs, painting and installation support.</p>
+          </article>
+          <article class="card">
+            <h3>Flooring Installation</h3>
+            <p>Laminate, vinyl plank, baseboards, transitions and floor preparation.</p>
+          </article>
+          <article class="card">
+            <h3>Painting & Drywall</h3>
+            <p>Wall repairs, patching, sanding, priming, painting and unit refresh work.</p>
+          </article>
+          <article class="card">
+            <h3>Rental Turnovers</h3>
+            <p>Fast refresh services for rental apartments before new tenants move in.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -85,50 +97,48 @@
         <div>
           <p class="eyebrow">About MT Renovations</p>
           <h2>Reliable renovation help for Toronto and GTA</h2>
-          <p>MT Renovations provides professional renovation services for small and medium projects. We focus on practical improvements, clean finishing and clear communication.</p>
-          <p>We work with homeowners, landlords, condo owners and property managers who need dependable renovation help.</p>
+          <p>
+            MT Renovations provides professional renovation services for small and medium projects. We understand the needs of condo units, rental apartments and occupied homes where clean work, communication and scheduling matter.
+          </p>
+          <p>
+            We focus on practical, high-quality improvements that help owners refresh, repair and improve their property.
+          </p>
         </div>
-
         <div class="service-area">
           <h3>Service Areas</h3>
-          <p>Toronto, Etobicoke, Mississauga, Oakville, Scarborough, North York, Vaughan, Markham, Hamilton and GTA.</p>
+          <p>Toronto, Etobicoke, Mississauga, Oakville, Scarborough, North York, Vaughan, Markham, Hamilton and the GTA.</p>
         </div>
       </div>
     </section>
 
-    <section id="before-after" class="section">
-      <div class="container">
-        <p class="eyebrow">Project results</p>
-        <h2>Before / After</h2>
-        <p class="section-intro">Upload photos named like <strong>before-bathroom.jpg</strong> and <strong>after-bathroom.jpg</strong>. The website will pair them automatically.</p>
-        <div id="beforeAfterGrid" class="before-after-grid"></div>
-        <div id="beforeAfterEmpty" class="empty-note">Add before/after photos to the <strong>images</strong> folder.</div>
-      </div>
-    </section>
-
-    <section id="gallery" class="section alt">
+    <section id="gallery" class="section">
       <div class="container">
         <p class="eyebrow">Portfolio</p>
         <h2>Project Gallery</h2>
-        <p class="section-intro">Upload any project photos to the <strong>images</strong> folder. They will appear here automatically.</p>
-        <div id="galleryGrid" class="gallery"></div>
-        <div id="galleryEmpty" class="empty-note">No gallery photos found yet. Upload JPG, PNG or WEBP files to the <strong>images</strong> folder.</div>
+        <p class="section-intro">Add your real before-and-after photos here.</p>
+        <div class="gallery">
+          <div>Before / After Photo</div>
+          <div>Bathroom Project</div>
+          <div>Flooring Project</div>
+          <div>Painting Project</div>
+        </div>
       </div>
     </section>
 
-    <section id="insurance" class="section">
+    <section id="insurance" class="section alt">
       <div class="container split">
         <div>
-          <p class="eyebrow">Trust & compliance</p>
+          <p class="eyebrow">Trust & Compliance</p>
           <h2>WSIB & Insurance</h2>
-          <p>For property managers, condominium buildings and commercial clients, MT Renovations can provide business documentation, insurance information and WSIB details upon request.</p>
+          <p>
+            For property managers, condominium buildings and commercial clients, MT Renovations can provide business documentation, insurance information and WSIB details upon request.
+          </p>
         </div>
-
         <div class="checklist">
           <p>✔ Proof of insurance available</p>
           <p>✔ WSIB information available</p>
           <p>✔ Professional communication</p>
-          <p>✔ Suitable for condo and rental projects</p>
+          <p>✔ Suitable for condo/rental projects</p>
         </div>
       </div>
     </section>
@@ -136,7 +146,7 @@
     <section id="contact" class="section contact">
       <div class="container contact-grid">
         <div>
-          <p class="eyebrow">Request a quote</p>
+          <p class="eyebrow">Request a Quote</p>
           <h2>Get a Free Estimate</h2>
           <p>Send your project details, photos and location. We will review and contact you.</p>
           <p><strong>Email:</strong> <a href="mailto:info@mt-renovations.com">info@mt-renovations.com</a></p>
