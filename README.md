@@ -1,12 +1,21 @@
-# MT Renovations Website
+# MT Renovations Premium Website
 
-Free static website for GitHub Pages.
+Upload photos to the `images` folder.
 
-## Files
-- index.html
-- styles.css
-- script.js
-- CNAME
+Required optional names:
+- logo.png = website logo
+- hero.jpg = large hero image at the top
 
-## How to use
-Upload all files to your GitHub repository, enable GitHub Pages, and connect domain mt-renovations.com.
+Gallery:
+Every other image in the `images` folder appears automatically in the gallery.
+
+Examples:
+- bathroom1.jpg
+- bathroom2.jpg
+- kitchen1.jpg
+- flooring1.jpg
+- painting1.jpg
+- condo1.jpg
+
+Important:
+The repository must stay public because the site reads image files from GitHub.
